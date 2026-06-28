@@ -1,18 +1,8 @@
-# 8-Bit Adder/Subtractor
+# 8Bit Adder/Subtractor
 
 ## Abstract  
 This project presents the design and implementation of an **8-bit Arithmetic Logic Unit** using **74LS283 4-bit binary adders** and **74LS86 XOR gates**. The ALU performs **addition and subtraction** on two 8-bit binary numbers, selected through DIP switches, and displays results via LEDs. Subtraction is implemented using the **two’s complement method**, where the B input is inverted through XOR gates and a carry in is introduced.  
 
----
-
-## Features
-- **8-bit Addition**: Direct binary addition of inputs A and B.  
-- **8-bit Subtraction**: Implemented using two’s complement arithmetic.  
-- **Operation Control**: Single select line to toggle between addition and subtraction.  
-- **Inputs**: DIP switches for A and B values.  
-- **Outputs**: LEDs displaying result bits.  
-
----
 
 ## Components Used
 - **74LS283** – Two 4-bit full adders (to build 8-bit adder/subtractor).  
@@ -46,14 +36,6 @@ This project presents the design and implementation of an **8-bit Arithmetic Log
 
 ### Subtraction  
 <img width="994" height="649" alt="image" src="https://github.com/user-attachments/assets/3aa258b0-f2a2-44da-aec6-b188ce11affd" />
-  
-
----
-
-## References  
-- Turaga & Vanama. *Design of Low Power 4-bit ALU Using Adiabatic Logic*. [Semantic Scholar](https://www.semanticscholar.org/paper/Design-of-Low-Power-4-bit-ALU-Using-Adiabatic-Logic-Turaga-Vanama/16ab11d6142791a1366e69665849188839128598?p2df)  
-- [Eater.net – Computer Engineering Basics](https://eater.net/)  
-- [Instructables: 8-bit ALU Project](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit/)  
 
 ---
 
