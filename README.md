@@ -1,4 +1,4 @@
-# 8Bit Adder/Subtractor
+# 8 Bit Adder/Subtractor
 
 ## Abstract  
 This project presents the design and implementation of an **8-bit Arithmetic Logic Unit** using **74LS283 4-bit binary adders** and **74LS86 XOR gates**. The ALU performs **addition and subtraction** on two 8-bit binary numbers, selected through DIP switches, and displays results via LEDs. Subtraction is implemented using the **two’s complement method**, where the B input is inverted through XOR gates and a carry in is introduced.  
@@ -37,8 +37,5 @@ This project presents the design and implementation of an **8-bit Arithmetic Log
 ### Subtraction  
 <img width="994" height="649" alt="image" src="https://github.com/user-attachments/assets/3aa258b0-f2a2-44da-aec6-b188ce11affd" />
 
----
-
-## Author  
-**P Hari Ram Nikil**  
+---  
 Date: *21/09/2025*  
